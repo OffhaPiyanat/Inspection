@@ -15,11 +15,11 @@ public class MyOpenHelper extends SQLiteOpenHelper{
 
     private static final String create_inspection_table = "create table inspectionTABLE (" +
             "_id integer primary key, " +
-            "_Catagory text, " +
-            "_Item text, " +
-            "_Status text, " +
-            "_Date text, " +
-            "_Operator text);";
+            "Catagory text, " +
+            "Item text, " +
+            "Status text, " +
+            "Date text, " +
+            "Operator text);";
 
 
     public MyOpenHelper(Context context) {
