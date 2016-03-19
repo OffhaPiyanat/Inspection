@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="toilet">
+
+        <item>ลำดับที่ 1</item>
+        <item>ลำดับที่ 2</item>
+        <item>ลำดับที่ 3</item>
+        <item>ลำดับที่ 4</item>
+        <item>ลำดับที่ 5</item>
+        <item>ลำดับที่ 6</item>
+        <item>ลำดับที่ 7</item>
+        <item>ลำดับที่ 8</item>
+        <item>ลำดับที่ 9</item>
+        <item>ลำดับที่ 10</item>
+        <item>ลำดับที่ 11</item>
+        <item>ลำดับที่ 12</item>
+        <item>ลำดับที่ 13</item>
+        <item>ลำดับที่ 14</item>
+        <item>ลำดับที่ 15</item>
+        <item>ลำดับที่ 16</item>
+        <item>ลำดับที่ 17</item>
+        <item>ลำดับที่ 18</item>
+        <item>ลำดับที่ 19</item>
+        <item>ลำดับที่ 20</item>
+
+    </string-array>
+
+</resources>
