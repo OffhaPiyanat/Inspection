@@ -27,16 +27,16 @@ public class MainActivity extends AppCompatActivity {
     private void addFirstData() {
 
         SQLiteDatabase sqLiteDatabase = openOrCreateDatabase(MyOpenHelper.database_name,
-                MODE_PRIVATE,null);
-        Cursor cursor = sqLiteDatabase.rawQuery("SELECT * FROM " + MyManage.Inspection_table,null);
+                MODE_PRIVATE, null);
+        Cursor cursor = sqLiteDatabase.rawQuery("SELECT * FROM " + MyManage.Inspection_table, null);
 
         //Check Value
-        if (cursor.getCount()== 0) {
+        if (cursor.getCount() == 0) {
             //Blank Table
             addToilet();
             addKitchen();
         }
-    cursor.close();
+        cursor.close();
     }// addFirstData
 
     private void addKitchen() {
