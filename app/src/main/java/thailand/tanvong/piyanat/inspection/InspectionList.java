@@ -12,6 +12,8 @@ public class InspectionList extends AppCompatActivity {
     private ImageView iconImageView;
     private TextView titleTextView;
     private ListView inspectorListView;
+    private String chooseCategoryString;
+    private int chooseIconAnInt;
 
 
     @Override
@@ -22,9 +24,26 @@ public class InspectionList extends AppCompatActivity {
         //Bind Widget
         bindWidget();
 
+        //Show View
+        showView();
+
+        chooseCategoryString = getIntent().getStringExtra("Title");
+        chooseIconAnInt = getIntent().getIntExtra("Icon",R.drawable.build3);
+
+        titleTextView.setText(chooseCategoryString);
+        iconImageView.setImageResource(chooseIconAnInt);
+
     }   //Main Method
 
+    private void showView() {
+
+    }
+
     private void bindWidget() {
+
+        iconImageView = (ImageView) findViewById(R.id.imageView3);
+        titleTextView = (TextView) findViewById(R.id.textView4);
+        inspectorListView = (ListView) findViewById(R.id.listView);
 
     }
 
