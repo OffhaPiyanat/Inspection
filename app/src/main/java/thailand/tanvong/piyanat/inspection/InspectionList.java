@@ -103,7 +103,7 @@ public class InspectionList extends AppCompatActivity {
     private void showView() {
 
         chooseCategoryString = getIntent().getStringExtra("Title");
-        chooseIconAnInt = getIntent().getIntExtra("Icon", R.drawable.build3);
+        chooseIconAnInt = getIntent().getIntExtra("Icon", R.drawable.kitchen);
 
         titleTextView.setText(chooseCategoryString);
         iconImageView.setImageResource(chooseIconAnInt);
